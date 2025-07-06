@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans KR", sans-serif;
+  background: #f5f6fa;
+}
+
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  text-align: center;
+}
+
+h1 {
+  color: #1976d2;
+  margin-bottom: 32px;
+}
+
+.main-btn {
+  display: block;
+  width: 100%;
+  margin: 16px 0;
+  padding: 18px;
+  font-size: 1.2rem;
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.main-btn:hover {
+  background: #1565c0;
+}
+
+.back-btn {
+  position: absolute;
+  left: 24px;
+  top: 24px;
+  background: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.person-btn {
+  margin: 12px 8px;
+  padding: 14px 32px;
+  font-size: 1rem;
+  background: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.person-btn:hover {
+  background: #f57c00;
+}
+
+/* 모바일 최적화 */
+@media (max-width: 500px) {
+  .container {
+    max-width: 98vw;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 12px;
+  }
+  .back-btn {
+    left: 8px;
+    top: 8px;
+    padding: 6px 10px;
+  }
+}
